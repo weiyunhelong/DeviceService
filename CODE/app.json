@@ -25,5 +25,37 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#A0A0A0",
+    "selectedColor": "#3893FE",
+    "list": [{
+      "pagePath": "pages/home/index",
+      "text": "首页",
+      "iconPath": "/resources/tabbar/home.png",
+      "selectedIconPath": "/resources/tabbar/homeh.png"
+    },{
+      "pagePath": "pages/device/index",
+      "text": "设备",
+      "iconPath": "/resources/tabbar/device.png",
+      "selectedIconPath": "/resources/tabbar/deviceh.png"
+    },{
+      "pagePath": "pages/shop/index",
+      "text": "商城",
+      "iconPath": "/resources/tabbar/shop.png",
+      "selectedIconPath": "/resources/tabbar/shoph.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "/resources/tabbar/my.png",
+      "selectedIconPath": "/resources/tabbar/myh.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
   "sitemapLocation": "sitemap.json"
 }
