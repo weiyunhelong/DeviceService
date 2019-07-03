@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/device/index",
+    "pages/shop/index",
+    "pages/my/index",
+    "pages/device/list",
+    "pages/record/index",
+    "pages/log/index",
+    "pages/password/index",
+    "pages/password/change",
+    "pages/password/push",
+    "pages/warnlist/index",
+    "pages/warnlist/detail",
+    "pages/setting/kind",
+    "pages/setting/device",
+    "pages/setting/rule",
+    "pages/setting/strategy",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
